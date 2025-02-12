@@ -4,11 +4,11 @@ import time
 
 browser = webdriver.Edge()
 
-browser.get('https://bing.com')
+browser.get('https://yahoo.com')
 time.sleep(2)
 
-searchBar = browser.find_element(By.ID, 'sb_form_q')
-searchBar.send_keys('Quantum Infosys Pvt. Ltd')
+searchBar = browser.find_element(By.ID, 'ybar-sbq')
+searchBar.send_keys('Sunayana')
 searchBar.submit()
 time.sleep(5)
 
